@@ -55,7 +55,7 @@ See http://hangfire.io/ for some more info on the main project</Description>
       - Aligned dependency to Hangfire.Core
     </PackageReleaseNotes>
     <PackageTags>Hangfire Redis</PackageTags>
-    <RepositoryUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</RepositoryUrl>
+    <RepositoryUrl>https://github.com/funky81/Hangfire.Redis.StackExchange</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseUrl>http://www.gnu.org/licenses/lgpl-3.0.html</PackageLicenseUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
