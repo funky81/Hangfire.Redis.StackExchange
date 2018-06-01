@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <PackageId>Hangfire.Redis.StackExchange</PackageId>
+    <PackageId>Hangfire.Redis.StackExchange.Alt</PackageId>
     <IsPackable>true</IsPackable>
-    <Version>1.8.0</Version>
-    <PackageVersion>1.7.2</PackageVersion>
-    <Authors>Marco Casamento and contributors</Authors>
+    <Version>1.8.1</Version>
+    <PackageVersion>1.8.1</PackageVersion>
+    <Authors>Marco Casamento, Reski Rukmantiyo and contributors</Authors>
     <owners>marcocasamento</owners>
     <!--
       https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json-to-csproj
@@ -14,16 +14,17 @@
     -->
     <Product>Hangfire Redis Storage</Product>
     <PackageProjectUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</PackageProjectUrl>
-    <Description>
-      Hangfire Redis Storage Based on Redis.StackExchange
-      See http://hangfire.io/ for some more info on the main project
-    </Description>
+    <Description>Hangfire Redis Storage Based on Redis.StackExchange
+See http://hangfire.io/ for some more info on the main project</Description>
     <Summary>
       Enjoy Redis outstanding performance when fetch your jobs!
       Hangfire Redis storage use Redis to persists Job information, through Redis.StackExchange library.
       It also supports Batches (Pro Feature)
     </Summary>
-    <PackageReleaseNotes>1.8.0
+    <PackageReleaseNotes>
+      1.8.1
+      - Update to HangFire 1.6.19
+      1.8.0
       - Removed compatibility with .NET 4.5 and .NET 4.6
       - Upgrade compatibility with .NET Standard 2.0
       - Change reference into Microsoft Caching Redis
@@ -52,7 +53,7 @@
       1.6.5
       - .Net Core Support (thanks to Stefan Polyanszky)
       - Aligned dependency to Hangfire.Core
-</PackageReleaseNotes>
+    </PackageReleaseNotes>
     <PackageTags>Hangfire Redis</PackageTags>
     <RepositoryUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -61,8 +62,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HangFire.Core" Version="1.6.12" />
-    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.0.2" />
+    <PackageReference Include="HangFire.Core" Version="1.6.19" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
