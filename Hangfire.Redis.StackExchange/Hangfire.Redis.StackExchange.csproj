@@ -65,8 +65,6 @@ See http://hangfire.io/ for some more info on the main project</Description>
     <PackageReference Include="HangFire.Core" Version="1.6.19" />
     <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="xunit" Version="2.3.1" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
   </ItemGroup>
 
 </Project>
